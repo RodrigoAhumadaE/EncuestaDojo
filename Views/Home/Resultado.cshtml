@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="~/css/style.css">
+        <title>Encuesta Dojo</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h2 class="titulo">Información Enviada</h2>              
+                <div class="item result">
+                    <span>Nombre: </span>
+                    <span>@ViewBag.Usuario["nombre"]</span>
+                </div>
+                <div class="item result">
+                    <span>Locación Dojo: </span>
+                    <span>@ViewBag.Usuario["locacion"]</span>
+                </div>
+                <div class="item result">
+                    <span>Lenguaje Favorito: </span>
+                    <span>@ViewBag.Usuario["lenguaje"]</span>
+                </div>
+                <div class="item result">
+                    <span>Comentario: </span>
+                    <span>@ViewBag.Usuario["comentario"]</span>
+                </div>
+                <form action="/" method="GET">
+                    <div class="item boton">    
+                        <button>Volver</button>                  
+                    </div>
+                </form>
+                                
+            </div>
+        </div>
+    </body>
+</html>

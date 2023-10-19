@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "OCl+xoJxxaAvD0/MP4gaowMBhYa0MferctOcCOopSQ4=",
+  "Source": "EncuestaDojo",
+  "BasePath": "_content/EncuestaDojo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EncuestaDojo\\wwwroot",
+      "Source": "EncuestaDojo",
+      "ContentRoot": "D:\\Rodrigo\\Bootcamp Sonda\\C#-.Net\\practicas\\C#.Net\\EncuestaDojo\\wwwroot\\",
+      "BasePath": "_content/EncuestaDojo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Rodrigo\\Bootcamp Sonda\\C#-.Net\\practicas\\C#.Net\\EncuestaDojo\\wwwroot\\css\\style.css",
+      "SourceId": "EncuestaDojo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Rodrigo\\Bootcamp Sonda\\C#-.Net\\practicas\\C#.Net\\EncuestaDojo\\wwwroot\\",
+      "BasePath": "_content/EncuestaDojo",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

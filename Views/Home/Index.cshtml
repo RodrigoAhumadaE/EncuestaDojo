@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="~/css/style.css">
+        <title>Encuesta Dojo</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <form action="nuevo/resultado" method="POST">
+                    <div class="item">
+                        <label for="nombre">Tu Nombre: </label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div class="item">
+                        <label for="locacion">Locación Dojo: </label>
+                        <select name="locacion" id="locacion">
+                            <option>Elija una Locación</option>
+                            <option value="San Jose">San Jose</option>
+                            <option value="Oakland">Oakland</option>
+                            <option value="Los Angeles">Los Angeles</option>
+                            <option value="Seattle">Seattle</option>
+                            <option value="Dallas">Dallas</option>
+                            <option value="Tulsa">Tulsa</option>
+                            <option value="Chicago">Chicago</option>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <label for="lenguaje">Lenguaje Favorito: </label>
+                        <select name="lenguaje" id="lenguaje">
+                            <option>Elija un Lenguaje</option>
+                            <option value="C#">C#</option>
+                            <option value="Java">Java</option>
+                            <option value="C++">C++</option>
+                            <option value="Python">Python</option>
+                            <option value="JavaScript">JavaScript</option>
+                        </select>
+                    </div>
+                    <div class="item texto">
+                        <label for="comentario">Comentario <em>(opcional):</em></label>
+                        <textarea name="comentario" id="comentario" rows="5"></textarea>
+                    </div>
+                    <div class="item boton">
+                        <button>Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
